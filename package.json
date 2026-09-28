@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/guardcell",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Guard HTML/Markdown cell fragments safely for docs pipelines.",
+  "bin": {
+    "guardcell": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/guardcell.git"
+  },
+  "homepage": "https://theworker02.github.io/guardcell/",
+  "keywords": [
+    "guard",
+    "cell",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
